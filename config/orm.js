@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js");
+var connection = require("./connection");
 
 // grabing code from the class activity 
 
