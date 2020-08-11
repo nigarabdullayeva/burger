@@ -1,7 +1,16 @@
-body {
-    background-color: lightseagreen
+.jumbotron {
+    background-image: url(../img/Peanut-Butter-Burger_Traeger-Wood-Fired-Grills_RE_HE_M.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
 }
+ body {
+     background-color: lightslategray;
+}
+h1, h2 {
+    color:orange
 
+ }
 img {
     width: 150px;
 }

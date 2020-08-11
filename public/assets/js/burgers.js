@@ -1,7 +1,7 @@
 $(function() {
     $(".devour").on("click", function(event) {
       let id = $(this).data("id");
-      let devBur = $(this).data("newdevoured");
+      let devBur = $(this).data("devoured");
   
       let devouredBurger = {
         devoured: devBur
@@ -18,7 +18,7 @@ $(function() {
       );
     });
   
-    $(".create-form").on("submit", function(event) {
+    $(".form-group").on("submit", function(event) {
       event.preventDefault();
   
       let newBurger = {
