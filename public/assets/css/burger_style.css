@@ -1,0 +1,26 @@
+body {
+    background-color: lightseagreen
+}
+
+img {
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+#newburDiv, form {
+    text-align: center;
+}
+form {
+    margin: auto;
+}
